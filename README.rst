@@ -131,6 +131,7 @@ Use this installation mode if you want the latest released version.
     apt-get update && apt-get install -y libsndfile1 ffmpeg
     pip install Cython
     pip install nemo_toolkit['all']
+    pip install apex
 
 Pip from source
 ~~~~~~~~~~~~~~~
