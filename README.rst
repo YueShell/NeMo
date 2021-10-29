@@ -132,6 +132,7 @@ Use this installation mode if you want the latest released version.
     pip install Cython
     pip install nemo_toolkit['all']
     pip install apex
+    pip install pytorch-lightning==1.5.0rc1   #必须
 
 Pip from source
 ~~~~~~~~~~~~~~~
