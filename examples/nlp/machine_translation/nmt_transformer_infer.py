@@ -27,7 +27,7 @@ from argparse import ArgumentParser
 
 import torch
 
-import nemo.collections.nlp as nemo_nlp
+from nemo.collections import nlp as nemo_nlp
 from nemo.collections.nlp.modules.common.transformer import (
     BeamSearchSequenceGenerator,
     BeamSearchSequenceGeneratorWithLanguageModel,
