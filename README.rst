@@ -131,8 +131,12 @@ Use this installation mode if you want the latest released version.
     apt-get update && apt-get install -y libsndfile1 ffmpeg
     pip install Cython
     #pip install nemo_toolkit['all']
+    git clone https://github.com/YueShell/NeMo.git
+    cd NeMo
     python setup.py install
-    pip install apex
+    git clone https://github.com/NVIDIA/apex.git
+    cd apex
+    python setup.py install
     pip install pytorch-lightning==1.5.0rc1   #必须
 
 Pip from source
