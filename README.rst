@@ -136,7 +136,8 @@ Use this installation mode if you want the latest released version.
     python setup.py install
     git clone https://github.com/NVIDIA/apex.git
     cd apex
-    python setup.py install
+    pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" .
+    #python setup.py install
     pip install pytorch-lightning==1.5.0rc1   #必须
 
 Pip from source
